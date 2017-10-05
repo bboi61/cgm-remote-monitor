@@ -73,7 +73,9 @@ function create(env, ctx) {
         "/bgclock.html":"bgclock.html",
         "/report":"reportindex.html",
         "/translations":"translationsindex.html",
-        "/clock.html":"clock.html"
+        "/clock.html":"clock.html",
+	"/sweetclock2.html":"sweetclock2.html",
+        "/sweetclock.html":"sweetclock.html"
     };
 
 	Object.keys(appPages).forEach(function(page) {
