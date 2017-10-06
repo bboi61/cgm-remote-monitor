@@ -68,7 +68,8 @@
     .stale {
       color: black;
       background-color: grey;
-    }
+       }
+.clock /*agl rulekind: base;*/ { width: 100%; }
   </style>
 </head>
 
@@ -82,8 +83,7 @@
     <div class="arrow"><img id="arrow" src=""/></div>
     <div class="bgdelta"></div>
       
-	  <div class="clock"><iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&timezone=Europe%2FBerlin" frameborder="0" seamless="seamless"></iframe></div>	  
-    </div> 
+<div class="clock"><iframe class="clock" src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=de&timezone=Europe%2FBerlin" frameborder="0" seamless="seamless" align="right"></iframe></div>    </div> 
   </main>
   
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
